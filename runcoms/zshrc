@@ -11,3 +11,6 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+export "TERM=rxvt-unicode"
+alias "sp=sudo pacman"
+alias "sps=sp -Sy"
